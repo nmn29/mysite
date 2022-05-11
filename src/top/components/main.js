@@ -1,6 +1,5 @@
 import "../stylesheet/main.css"
 
-
 export default function main(){
   return(
     <main>
