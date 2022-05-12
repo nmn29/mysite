@@ -1,14 +1,44 @@
 .contents{
-  padding-top:30px;
+  padding-top:50px;
   font-size:20px;
   text-align:center;
   position:relative;
+  background-color:rgb(255, 255, 255);
+  height:600px;
 }
 
 .about{
   font-size:30px;
+  height:200px;
+
 }
 
 .test{
   float:left;
+}
+
+.icon-c {
+  width: 200px;
+  border-radius:50%;
+  border: 8px solid #dcdcdc;
+}
+
+.aboutus{
+  padding:10px 30px 10px 30px;
+  text-align:left;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  line-height:15px;
+}
+
+li{
+  height:250px;
+  padding:15px;
+  margin-left:20px;
+  list-style:none;
+  display:inline-block;
+}
+
+h1{
+  text-align:center;
+  padding-bottom:20px;
 }

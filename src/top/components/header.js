@@ -11,7 +11,7 @@ export default function header(){
         }}
         whileTap={{ scale: 0.9 }}
       >
-        <img className="icon-h" src={Icon} />
+        <a href="/"><img className="icon-h" src={Icon} /></a>
       </motion.div>
     </header>
   );
