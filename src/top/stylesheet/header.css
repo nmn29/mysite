@@ -1,19 +1,39 @@
 header {
   position:relative;
-  padding: 20px 3% 20px;
-  top: 0;
+  padding: 20px 3% 25px;
   background-color: #fffafa;
   display: flex;
-  align-items: center;
+  height:100px;
+  border-bottom:5px solid #a9a9a9;
+}
+
+.icon-h-l{
+  float:left;
 }
 
 .icon-h {
-  width: 70px;
-  height: auto;
+  width: 100px;
   border-radius:50%;
-  border: 3px solid #dcdcdc;
+  border: 5px solid #dcdcdc;
   font-family: 'Montserrat', sans-serif;
   margin: 0; 
   padding: 0;
   font-size: 40px;
+}
+
+.link-l{
+  margin: 0 0 0 auto;
+  font-size:70px;
+}
+
+.g-link{
+  color:#171515;
+}
+
+.t-link{
+  color:#00acee;
+}
+
+a:visited{
+  color: inherit;
 }

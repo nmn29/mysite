@@ -5,12 +5,20 @@
   position:relative;
   background-color:rgb(255, 255, 255);
   height:600px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .about{
   font-size:30px;
   height:200px;
 
+}
+
+.aboutul{
+  background-color:green;
+  width:30em;
+  text-align:center;
+  margin: 0 auto;
 }
 
 .test{
@@ -26,7 +34,6 @@
 .aboutus{
   padding:10px 30px 10px 30px;
   text-align:left;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
   line-height:15px;
 }
 
