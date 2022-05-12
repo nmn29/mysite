@@ -27,7 +27,12 @@ export default function contents(){
           </ul>
             <div className="skills">
               <Fade bottom><h1>skills</h1></Fade>  
-            </div> 
+            </div>
+          <ul>
+            <li>
+              
+            </li>
+          </ul> 
         </div>
       </div>
     </div>

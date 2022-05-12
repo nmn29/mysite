@@ -15,10 +15,11 @@
 }
 
 .aboutul{
-  background-color:green;
+  background-color:#f0f8ff;
   width:30em;
   text-align:center;
   margin: 0 auto;
+  border-radius:50px;
 }
 
 .test{
