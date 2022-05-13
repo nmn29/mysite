@@ -26,6 +26,12 @@ header {
   font-size:70px;
 }
 
+.link-l li{
+  height:250px;
+  padding:15px;
+  margin-left:20px;
+}
+
 .g-link{
   color:#171515;
 }

@@ -4,22 +4,21 @@
   text-align:center;
   position:relative;
   background-color:rgb(255, 255, 255);
-  height:600px;
+  height:1000px;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .about{
   font-size:30px;
   height:200px;
-
 }
 
 .aboutul{
   background-color:#f0f8ff;
-  width:30em;
   text-align:center;
   margin: 0 auto;
   border-radius:50px;
+  width:30em;
 }
 
 .test{
@@ -46,7 +45,41 @@ li{
   display:inline-block;
 }
 
-h1{
+.aboutus h1{
   text-align:center;
   padding-bottom:20px;
+  margin-top:50px;
+}
+
+.Learning{
+  position:relative;
+  top:40px;
+}
+.learn{
+  background-color:#f0fff0;
+  height:360px;
+  width:30em;
+  text-align:center;
+  border-radius:50px;
+  margin: 0 auto;
+}
+
+.learn-l{
+  margin: 0 auto;
+  padding:30px;
+}
+.learn-l img{
+  width:100px;
+  height:100px;
+}
+
+.learn-l p{
+  font-size:25px;
+  line-height:10px;
+}
+
+.links li{
+  width:200px;
+  height:50px;
+  background-color:black;
 }

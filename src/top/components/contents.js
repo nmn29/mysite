@@ -25,14 +25,44 @@ export default function contents(){
               </div>
             </li>
           </ul>
-            <div className="skills">
-              <Fade bottom><h1>skills</h1></Fade>  
-            </div>
-          <ul>
-            <li>
-              
-            </li>
+
+          <ul className="learn"> 
+            <Fade bottom>
+            <div className="Learning">
+              <Fade bottom><h1>Learning</h1></Fade>  
+            </div>           
+              <li className="learn-l react-js">
+                <img src="https://img.icons8.com/color/480/000000/react-native.png"/>
+                <p>React.js</p>
+              </li>
+              <li className="learn-l vue-js">
+                <img src="https://img.icons8.com/color/480/000000/vue-js.png"/>
+                <p>Vue.js</p>
+              </li>
+              <li className="learn-l discord-bot">
+                <img src="https://img.icons8.com/color/480/000000/discord-logo.png"/>
+                <p>Discord bot</p>
+              </li>
+              <li className="learn-l python">
+                <img src="https://img.icons8.com/color/480/000000/python--v1.png"/>
+                <p>Python</p>
+              </li>
+              <li className="learn-l java">
+                <img src="https://img.icons8.com/color/480/000000/java-coffee-cup-logo--v1.png"/>
+                <p>Java</p>
+              </li> 
+            </Fade>        
           </ul> 
+          
+          
+          <ul className="links">
+            <li className="blog">
+              <a href="#">Blog</a>
+            </li>
+            <li className="works">
+              <a href="#">Works</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
