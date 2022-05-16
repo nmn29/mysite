@@ -1,10 +1,10 @@
-header {
+.header {
   position:relative;
   padding: 20px 3% 25px;
   background-color: #fffafa;
   display: flex;
   height:100px;
-  border-bottom:5px solid #a9a9a9;
+  border-bottom:2px solid #a9a9a9;
 }
 
 .icon-h-l{
@@ -42,4 +42,18 @@ header {
 
 a:visited{
   color: inherit;
+}
+
+.header-link{
+  height:50px;
+}
+
+.header-link ul{
+  text-align:center;
+  margin: 0 auto;
+  border-bottom:2px solid #a9a9a9;
+}
+
+.header-link a{
+  text-decoration: none;
 }

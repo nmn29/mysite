@@ -8,18 +8,30 @@ export default function header(){
 
 
   return(
-    <header>
-      <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
-        <a href="/"><img className="icon-h" src={Icon} /></a>
-      </motion.div>
-      <ul className="link-l">
-        <li className="g-link">
-          <a href="https://github.com/nmn29"><FontAwesomeIcon icon={faGithubSquare} /></a>
-        </li>
-        <li className="t-link">
-          <a href="https://github.com/nmn29"><FontAwesomeIcon icon={faTwitterSquare} /></a>
-        </li>
-      </ul>
-    </header>
+    <div>
+      <div className="header">
+        <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
+          <a href="/"><img className="icon-h" src={Icon} /></a>
+        </motion.div>
+        <ul className="link-l">
+          <li className="g-link">
+            <a href="https://github.com/nmn29"><FontAwesomeIcon icon={faGithubSquare} /></a>
+          </li>
+          <li className="t-link">
+            <a href="https://github.com/nmn29"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+          </li>
+        </ul>
+      </div>
+      <div className="header-link">
+        <ul>
+          <li>
+            <a href="/">Blog</a>
+          </li>
+          <li>
+            <a href="/">Works</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 }
