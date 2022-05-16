@@ -53,16 +53,20 @@ export default function contents(){
               </li> 
             </Fade>        
           </ul> 
-          
-          
+          <Fade bottom>
           <ul className="links">
             <li className="blog">
-              <a href="#">Blog</a>
+              <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
+              <a className="blog-a" href="#"><span>Blog</span></a>
+              </motion.div>
             </li>
             <li className="works">
-              <a href="#">Works</a>
+              <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
+                <a className="works-a"href="#"><span>Works</span></a>
+              </motion.div>
             </li>
           </ul>
+          </Fade>
         </div>
       </div>
     </div>

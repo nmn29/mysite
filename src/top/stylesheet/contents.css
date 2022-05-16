@@ -1,5 +1,5 @@
 .contents{
-  padding-top:50px;
+  padding-top:150px;
   font-size:20px;
   text-align:center;
   position:relative;
@@ -10,19 +10,15 @@
 
 .about{
   font-size:30px;
-  height:200px;
 }
 
 .aboutul{
-  background-color:#f0f8ff;
+  border:3px solid black;
   text-align:center;
   margin: 0 auto;
   border-radius:50px;
   width:30em;
-}
-
-.test{
-  float:left;
+  margin-bottom:50px;
 }
 
 .icon-c {
@@ -38,7 +34,6 @@
 }
 
 li{
-  height:250px;
   padding:15px;
   margin-left:20px;
   list-style:none;
@@ -53,21 +48,25 @@ li{
 
 .Learning{
   position:relative;
-  top:40px;
+  top:20px;
 }
+
 .learn{
-  background-color:#f0fff0;
-  height:360px;
-  width:30em;
-  text-align:center;
-  border-radius:50px;
+  padding-top:10px;
+  border:3px solid black;
   margin: 0 auto;
+  border-radius:50px;
+  width:30em;
+  line-height:20px;
 }
+
 
 .learn-l{
   margin: 0 auto;
   padding:30px;
+
 }
+
 .learn-l img{
   width:100px;
   height:100px;
@@ -75,11 +74,82 @@ li{
 
 .learn-l p{
   font-size:25px;
-  line-height:10px;
+  line-height:5px;
 }
 
-.links li{
-  width:200px;
-  height:50px;
-  background-color:black;
+/*ボタン*/
+.links{
+  padding-right:40px;
+  padding-top:75px;
+}
+
+.links span{
+  margin: 0 auto;
+  font-size: 45px;
+}
+
+.blog a{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 40px;
+  width: 300px;
+  color: #2285b1;
+  font-weight: 700;
+  border: 2px solid #2285b1;
+}
+
+.blog a::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #2285b1;
+  border-right: 3px solid #2285b1;
+  transform: rotate(45deg);
+}
+
+.blog a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #a0c4d3;
+}
+
+.blog a:hover::after {
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+
+.works a{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 40px;
+  width: 300px;
+  color: #2ead2e;
+  font-weight: 700;
+  border: 2px solid #2ead2e;
+}
+
+.works a::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #2ead2e;
+  border-right: 3px solid #2ead2e;
+  transform: rotate(45deg);
+}
+
+.works a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #9bbd9b;
+}
+
+.works a:hover::after {
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
 }
