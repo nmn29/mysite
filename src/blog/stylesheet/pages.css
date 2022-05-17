@@ -1,0 +1,22 @@
+.pages{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  height:700px;
+  text-align:center;
+}
+
+.pages li{
+  width:800px;
+  margin-top:40px;
+  border:2px solid black;
+  border-radius:5px;
+  box-shadow: 8px 8px 6px #dcdcdc;
+}
+
+.pages h1{
+  font-size:35px;
+  border-bottom:1px solid black;
+}
+
+.pages h2{
+  font-size:20px;
+}

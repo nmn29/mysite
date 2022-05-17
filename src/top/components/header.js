@@ -11,7 +11,7 @@ export default function header(){
     <div>
       <div className="header">
         <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
-          <a href="/"><img className="icon-h" src={Icon} /></a>
+          <Link to="/"><img className="icon-h" src={Icon} /></Link>
         </motion.div>
         <ul className="link-l">
           <li className="g-link">
@@ -24,7 +24,7 @@ export default function header(){
       </div>
       <div className="header-link">
         <ul>
-          <Link to="blog"><li>Blog</li></Link>    
+          <Link to="../blog"><li>Blog</li></Link>    
           <Link to="/"><li>Works</li></Link>      
         </ul>
       </div>
