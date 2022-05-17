@@ -1,11 +1,11 @@
-import "../stylesheet/header.css"
-import Icon from "../images/icon.png"
-import { motion } from "framer-motion"
+import "../stylesheet/header.css";
+import Icon from "../images/icon.png";
+import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 export default function header(){
-
 
   return(
     <div>
@@ -24,8 +24,8 @@ export default function header(){
       </div>
       <div className="header-link">
         <ul>
-          <a href="/"><li>Blog</li></a>    
-          <a href="/"><li>Works</li></a>      
+          <Link to="blog"><li>Blog</li></Link>    
+          <Link to="/"><li>Works</li></Link>      
         </ul>
       </div>
     </div>

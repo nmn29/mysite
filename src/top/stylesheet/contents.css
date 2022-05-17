@@ -33,7 +33,7 @@
   line-height:15px;
 }
 
-li{
+.contents li{
   list-style:none;
   display:inline-block;
 }

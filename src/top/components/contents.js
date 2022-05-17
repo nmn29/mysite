@@ -2,6 +2,7 @@ import "../stylesheet/contents.css";
 import { Fade } from 'react-reveal'
 import Icon from "../images/icon.png"
 import { motion } from 'framer-motion'
+import { Link } from "react-router-dom"
 
 export default function contents(){ 
   return(
@@ -25,7 +26,6 @@ export default function contents(){
               </div>
             </li>
           </ul>
-
           <ul className="learn"> 
             <Fade bottom>
             <div className="Learning">
@@ -57,12 +57,12 @@ export default function contents(){
           <ul className="links">
             <li className="blog">
               <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
-              <a className="blog-a" href="../../blog/blog.js"><span>Blog</span></a>
+                <Link to="blog" className="blog-a"><span>Blog</span></Link>
               </motion.div>
             </li>
             <li className="works">
               <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
-                <a className="works-a"href="#"><span>Works</span></a>
+                <Link to="/" className="works-a"><span>Works</span></Link>
               </motion.div>
             </li>
           </ul>

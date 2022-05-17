@@ -4,7 +4,11 @@
   background-color: #fffafa;
   display: flex;
   height:100px;
+}
 
+li{
+  list-style:none;
+  display:inline-block;
 }
 
 .icon-h-l{
