@@ -57,7 +57,7 @@ export default function contents(){
           <ul className="links">
             <li className="blog">
               <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
-              <a className="blog-a" href="#"><span>Blog</span></a>
+              <a className="blog-a" href="../../blog/blog.js"><span>Blog</span></a>
               </motion.div>
             </li>
             <li className="works">

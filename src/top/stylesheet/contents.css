@@ -34,8 +34,6 @@
 }
 
 li{
-  padding:15px;
-  margin-left:20px;
   list-style:none;
   display:inline-block;
 }
@@ -88,6 +86,9 @@ li{
   font-size: 45px;
 }
 
+.links li{
+  padding:0px 20px 0px 20px;
+}
 .blog a{
   text-decoration: none;
   display: flex;

@@ -24,12 +24,8 @@ export default function header(){
       </div>
       <div className="header-link">
         <ul>
-          <li>
-            <a href="/">Blog</a>
-          </li>
-          <li>
-            <a href="/">Works</a>
-          </li>
+          <a href="/"><li>Blog</li></a>    
+          <a href="/"><li>Works</li></a>      
         </ul>
       </div>
     </div>

@@ -4,7 +4,7 @@
   background-color: #fffafa;
   display: flex;
   height:100px;
-  border-bottom:2px solid #a9a9a9;
+
 }
 
 .icon-h-l{
@@ -26,14 +26,9 @@
   font-size:70px;
 }
 
-.link-l li{
-  height:250px;
-  padding:15px;
-  margin-left:20px;
-}
-
 .g-link{
   color:#171515;
+  margin:25px 40px 0px 0px;
 }
 
 .t-link{
@@ -44,16 +39,29 @@ a:visited{
   color: inherit;
 }
 
-.header-link{
-  height:50px;
-}
-
 .header-link ul{
   text-align:center;
   margin: 0 auto;
-  border-bottom:2px solid #a9a9a9;
+  background-color:#fffafa;
+  border-top: 1px solid #dcdcdc;
+}
+
+.header-link li{
+  background-color:#eeeeee;
+  height:40px;
+  width:250px;
+  margin:0px 40px 0px 40px;
 }
 
 .header-link a{
   text-decoration: none;
+  font-size:25px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing:3px;
+  color:#a9a9a9;
+}
+
+.header-link a:hover{
+  transition:0.3s;
+  opacity:0.7;
 }
