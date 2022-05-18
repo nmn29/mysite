@@ -1,27 +1,29 @@
-import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
-import { useLocation, useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useLayoutEffect } from "react";
 import Top from "./top/top.js";
 import Blog from "./blog/blog.js";
+import Page1 from "./blog/pages/page1.js"
 
 export function Router(){
 
-  const ScrollTop = () => {
-    const { pathname } = useLocation()
-
-    useEffect(() => {
-      window.scrollTo(0,0)
-    }, [pathname])
-
-    return null
-  }
+  const Wrapper = ({children}) => {
+    const location = useLocation();
+      useLayoutEffect(() => {
+        document.documentElement.scrollTo(0, 0);
+      }, [location.pathname]);
+    return children
+  } 
 
   return(
     <>
       <BrowserRouter>
-        <Router>
-          <Route path="/" onChange={ScrollTop} element={<Top />} />
-          <Route path="/blog" onChange={ScrollTop} element={<Blog />} />
-        </Router>
+        <Wrapper>
+          <Routes>
+            <Route path="/" element={<Top />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/page1" element={<Page1 />} />
+          </Routes>
+        </Wrapper>
       </BrowserRouter>
     </>
   );
