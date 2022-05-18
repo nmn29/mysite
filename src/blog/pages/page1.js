@@ -2,6 +2,8 @@ import Header from "../../top/components/header.js";
 import "../stylesheet/pages.css";
 import { Fade } from 'react-reveal';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+
 export default function page1(){
   return(
     <div className="page">
@@ -27,11 +29,13 @@ export default function page1(){
                 </p>
             </div>
           </div>
+          <motion.div whileHover={{scale: 1.05}} whileTap={{ scale: 0.95 }}>
           <div className="backToBlog">
             <Link to="/blog">
-              一覧へ戻る
+              <span>一覧へ戻る</span>
             </Link>
           </div>
+          </motion.div>
         </Fade>
     </div>
   );

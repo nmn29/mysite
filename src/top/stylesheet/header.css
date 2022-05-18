@@ -48,6 +48,7 @@ a:visited{
   margin: 0 auto;
   background-color:#fffafa;
   border-top: 1px solid #dcdcdc;
+  padding-right:40px;
 }
 
 .header-link li{

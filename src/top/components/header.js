@@ -25,7 +25,7 @@ export default function header(){
       <div className="header-link">
         <ul>
           <Link to="../blog"><li>Blog</li></Link>    
-          <Link to="/"><li>Works</li></Link>      
+          <Link to="../works"><li>Works</li></Link>      
         </ul>
       </div>
     </div>
