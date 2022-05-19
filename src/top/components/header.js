@@ -15,10 +15,10 @@ export default function header(){
         </motion.div>
         <ul className="link-l">
           <li className="g-link">
-            <a href="https://github.com/nmn29"><FontAwesomeIcon icon={faGithubSquare} /></a>
+            <a href="https://github.com/nmn29" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /></a>
           </li>
           <li className="t-link">
-            <a href="https://github.com/nmn29"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+            <a href="https://github.com/nmn29" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
           </li>
         </ul>
       </div>

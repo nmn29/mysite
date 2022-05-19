@@ -1,0 +1,34 @@
+.works-page{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  height:800px;
+  text-align:center;
+}
+
+.works-contents{
+  width:800px;
+  margin: 0 auto;
+  font-size:25px;
+}
+
+.works-contents h1{
+  font-size:40px;
+}
+
+.works-contents h2{
+  font-size:30px;
+}
+
+.worklist li{
+  width:900px;
+  border:2px solid black;
+  border-radius:5px;
+  box-shadow: 8px 8px 6px #dcdcdc;
+  margin-right:32px;
+  text-align:left;
+  margin-bottom:50px;
+}
+
+.works-contents img{
+  height:400px;
+}
+
