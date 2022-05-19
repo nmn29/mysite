@@ -12,6 +12,7 @@
 
 .works-contents h1{
   font-size:40px;
+  border-bottom:1px solid black;
 }
 
 .works-contents h2{
@@ -32,3 +33,48 @@
   height:400px;
 }
 
+.toTop a{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px 20px;
+  width: 300px;
+  height:70px;
+  color: black;
+  font-weight: 700;
+  border: 2px solid black;
+}
+
+.toTop a::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  transform: rotate(45deg);
+  margin-top:10px;
+}
+
+.toTop a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(150, 150, 150);
+}
+
+.toTop a:hover::after {
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.toTop span{
+  margin: 0 auto;
+  font-size:30px;
+  letter-spacing:3px;
+  margin-right:100px;
+}
+
+.toTop{
+  padding-bottom:50px;
+}

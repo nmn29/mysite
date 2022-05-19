@@ -18,7 +18,7 @@ export default function header(){
             <a href="https://github.com/nmn29" target="_blank"><FontAwesomeIcon icon={faGithubSquare} /></a>
           </li>
           <li className="t-link">
-            <a href="https://github.com/nmn29" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
+            <a href="https://twitter.com/nama_nmn29" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
           </li>
         </ul>
       </div>

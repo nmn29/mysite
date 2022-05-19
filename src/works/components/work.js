@@ -6,6 +6,13 @@ import { Fade } from "react-reveal";
 
 export default function work(){
 
+  const returnToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return(
     <div className="works-page">
       <div className="pagetitle">
@@ -28,6 +35,9 @@ export default function work(){
           </li>
         </Fade>
       </ul>
+      <div className="toTop">
+        <a onClick={returnToTop}><span>TOP</span></a>
+      </div>
     </div>
   );
 
