@@ -1,5 +1,5 @@
 import "../stylesheet/header.css";
-import Icon from "../images/icon.png";
+import Icon from "../images/icon.jpg";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";

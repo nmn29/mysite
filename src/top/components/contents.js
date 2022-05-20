@@ -1,6 +1,6 @@
 import "../stylesheet/contents.css";
 import { Fade } from 'react-reveal'
-import Icon from "../images/icon.png"
+import Icon from "../images/icon.jpg"
 import { motion } from 'framer-motion'
 import { Link } from "react-router-dom"
 
