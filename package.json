@@ -1,5 +1,5 @@
 {
-  "name": "mysite",
+  "name": "nama",
   "homepage": "https://nmn29.github.io/nama",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,6 @@
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^6.3.3",
-    "gh-pages": "^4.0.0",
     "gsap": "^3.10.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -27,9 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "postbuild": "cp build/index.html build/404.html",
-    "deploy": "yarn build && gh-pages -d build",
+    "build": "cross-env PUBLIC_URL=/nama react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^4.0.0"
   }
 }
