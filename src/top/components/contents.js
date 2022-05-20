@@ -13,7 +13,7 @@ export default function contents(){
             <li className="icon-l">
             <div className="icon">
               <motion.div whileHover={{scale: 1.1}} whileTap={{ scale: 0.9 }}>
-                <a onclick="window.location.reload(true);"><img className="icon-c" src={Icon} /></a>
+                <a onclick="javascript:location.reload();"><img className="icon-c" src={Icon} /></a>
               </motion.div>
             </div>
             </li>
