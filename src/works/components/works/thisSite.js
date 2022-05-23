@@ -11,7 +11,7 @@ export default function thisSite(){
       <p>React.jsを主に使用して個人サイトを作成しました。</p>
       <h2>使用技術</h2>
       ・React.js等<br/>
-      ・Heroku<br/>
+      ・GitHub Pages<br/>
       <div className="githubLink">
         <a href="https://github.com/nmn29/mysite" target="_blank"><span>GitHub<FontAwesomeIcon icon={faGithubSquare} /></span></a>
       </div>
