@@ -10,7 +10,8 @@ export default function symm(){
       <h1>SYMM bot</h1>
       <p>
         直近の画像をシンメトリー化するDiscord botを作成しました。<br/>
-        GitHubを活用し先輩等と共同開発しました。(2021/11)<br/>   
+        GitHubを活用し先輩等と共同開発しました。(2021/11)<br/>
+        コード自体はシンプルですが、実際にリリースした所、知人同士での枠を超えて一定の評価を頂けたのが嬉しかったです。<br/>
       </p>
       <img src={symmGIF}></img>
       <h2>使用技術</h2>
